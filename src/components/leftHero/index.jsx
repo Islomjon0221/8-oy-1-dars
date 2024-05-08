@@ -1,13 +1,11 @@
 // OTHER ITEMS
 import { BarChart } from "@mui/x-charts/BarChart";
-import { axisClasses } from '@mui/x-charts/ChartsAxis';
 // MY ITEMS
 import "./index.css";
 import icon1 from "../../assets/rating-top-1.svg";
 import icon2 from "../../assets/rating-top-2.svg";
 import icon3 from "../../assets/rating-top-3.svg";
 import blueBall from "../../assets/blue-ball.svg";
-import { blue } from "@mui/material/colors";
 // FUNCTION
 
 function LeftHero() {
@@ -60,23 +58,11 @@ function LeftHero() {
           // { data: [2, 8, 1, 3, 1], stack: "B" },
           { data: [10, 6, 5, 8, 9] },
         ]}
-        colors={blue}
         width={1082}
         height={550}
         
       />
     </div>
-        <BarChart
-          series={[
-            { data: [2, 4, 1, 6, 5], stack: "A" },
-            { data: [4, 3, 1, 5, 8], stack: "A" },
-            { data: [4, 2, 5, 4, 1], stack: "B" },
-            { data: [2, 8, 1, 3, 1], stack: "B" },
-            { data: [10, 6, 5, 8, 9] },
-          ]}
-          width={1082}
-          height={550}
-        />
       </div>
       <div className="left-hero-footer">
         <div className="left-hero-footer__top">
