@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo__img {
+  cursor: pointer;
+}
+.header__link__list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__link__list__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.header__link__list__item:hover {
+  filter: brightness(0) saturate(100%) invert(24%) sepia(98%) saturate(3556%)
+    hue-rotate(213deg) brightness(101%) contrast(105%);
+}
+.icon {
+  background: url(../../assets/header-svg-2.svg) no-repeat;
+  height: 18px;
+  width: 18px;
+  background-size: contain;
+  display: block;
+}
+.header__account {
+  cursor: pointer;
+}
+.header__account__buttonSetting {
+  cursor: pointer;
+}
+.header__account__text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

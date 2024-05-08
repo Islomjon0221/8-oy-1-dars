@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+  cursor: default;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafb;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}

@@ -1,0 +1,110 @@
+.rightHero {
+  max-width: 294px;
+}
+.rightHero__header {
+  background-color: white;
+  padding: 20px;
+  width: 294px;
+  border-radius: 10px;
+}
+.rightHero__header__paragraph {
+  width: Hug (93px) px;
+  height: Hug (16px) px;
+  gap: 8px;
+  opacity: 0px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c0c0cb;
+}
+.rightHero__header__div {
+  padding-top: 10px;
+}
+.rightHero__header__div__paragraph2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #696974;
+}
+.rightHero__header__div__paragraphTitle {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  color: #171725;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c0c0cb;
+}
+.rightHero__header__chart {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.chartWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.rightHero__main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #171725;
+  margin-bottom: 10px;
+}
+.feedback {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #696974;
+}
+.orange {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #fc5a5a;
+}
+.birnarsada {
+  display: flex;
+  justify-content: space-between;
+}
+.rightHero__footer {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+.blackBold-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: #171725;
+}
+.birnarsabuham {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.footerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+}
+.forCursor {
+  cursor: pointer;
+}
