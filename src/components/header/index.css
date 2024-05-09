@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .header__logo__img {
   cursor: pointer;
