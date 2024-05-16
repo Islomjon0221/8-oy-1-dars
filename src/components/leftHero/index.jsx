@@ -1,13 +1,9 @@
-// OTHER ITEMS
 import { BarChart } from "@mui/x-charts/BarChart";
-// MY ITEMS
 import "./index.css";
 import icon1 from "../../assets/rating-top-1.svg";
 import icon2 from "../../assets/rating-top-2.svg";
 import icon3 from "../../assets/rating-top-3.svg";
 import blueBall from "../../assets/blue-ball.svg";
-// FUNCTION
-
 function LeftHero() {
   return (
     <div className="left-hero">
@@ -50,12 +46,7 @@ function LeftHero() {
       <div className="left-hero-hero">
       <div style={{ width: '100%' }}>
       <BarChart
-        // dataset={dataset}
         series={[
-          // { data: [2, 4, 1, 6, 5], stack: "A" },
-          // { data: [4, 3, 1, 5, 8], stack: "A" },
-          // { data: [4, 2, 5, 4, 1], stack: "B" },
-          // { data: [2, 8, 1, 3, 1], stack: "B" },
           { data: [10, 6, 5, 8, 9] },
         ]}
         width={1082}
@@ -74,7 +65,38 @@ function LeftHero() {
         </div>
         <div className="left-hero-footer__bottom">
           <div className="left-hero-footer__bottom2">
-            {/* ================================================= */}
+            <div className="left-hero-footer__bottom__item">
+              <img src={blueBall} alt="Blue Ball Image" />
+              <p>Bolalar uchun</p>
+              <span>15.7k</span>
+            </div>
+            <div className="left-hero-footer__bottom__item">
+              <img src={blueBall} alt="Blue Ball Image" />
+              <p>Bolalar uchun</p>
+              <span>15.7k</span>
+            </div>
+            <div className="left-hero-footer__bottom__item">
+              <img src={blueBall} alt="Blue Ball Image" />
+              <p>Bolalar uchun</p>
+              <span>15.7k</span>
+            </div>
+            <div className="left-hero-footer__bottom__item">
+              <img src={blueBall} alt="Blue Ball Image" />
+              <p>Bolalar uchun</p>
+              <span>15.7k</span>
+            </div>
+            <div className="left-hero-footer__bottom__item">
+              <img src={blueBall} alt="Blue Ball Image" />
+              <p>Bolalar uchun</p>
+              <span>15.7k</span>
+            </div>
+            <div className="left-hero-footer__bottom__item">
+              <img src={blueBall} alt="Blue Ball Image" />
+              <p>Bolalar uchun</p>
+              <span>15.7k</span>
+            </div>
+          </div>
+          <div className="left-hero-footer__bottom2">
             <div className="left-hero-footer__bottom__item">
               <img src={blueBall} alt="Blue Ball Image" />
               <p>Bolalar uchun</p>
@@ -140,40 +162,6 @@ function LeftHero() {
             </div>
           </div>
           <div className="left-hero-footer__bottom2">
-            {/* ================================================= */}
-            <div className="left-hero-footer__bottom__item">
-              <img src={blueBall} alt="Blue Ball Image" />
-              <p>Bolalar uchun</p>
-              <span>15.7k</span>
-            </div>
-            <div className="left-hero-footer__bottom__item">
-              <img src={blueBall} alt="Blue Ball Image" />
-              <p>Bolalar uchun</p>
-              <span>15.7k</span>
-            </div>
-            <div className="left-hero-footer__bottom__item">
-              <img src={blueBall} alt="Blue Ball Image" />
-              <p>Bolalar uchun</p>
-              <span>15.7k</span>
-            </div>
-            <div className="left-hero-footer__bottom__item">
-              <img src={blueBall} alt="Blue Ball Image" />
-              <p>Bolalar uchun</p>
-              <span>15.7k</span>
-            </div>
-            <div className="left-hero-footer__bottom__item">
-              <img src={blueBall} alt="Blue Ball Image" />
-              <p>Bolalar uchun</p>
-              <span>15.7k</span>
-            </div>
-            <div className="left-hero-footer__bottom__item">
-              <img src={blueBall} alt="Blue Ball Image" />
-              <p>Bolalar uchun</p>
-              <span>15.7k</span>
-            </div>
-          </div>
-          <div className="left-hero-footer__bottom2">
-            {/* ================================================= */}
             <div className="left-hero-footer__bottom__item">
               <img src={blueBall} alt="Blue Ball Image" />
               <p>Bolalar uchun</p>

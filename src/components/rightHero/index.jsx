@@ -1,4 +1,3 @@
-import React from "react";
 import "./index.css";
 import Edit from "../../assets/edit.svg";
 import first from "../../assets/first.png";
